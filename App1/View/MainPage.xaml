@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.View.MainPage"
+             xmlns:ViewModel="clr-namespace:App1.ViewModel">
+    <ContentPage.BindingContext>
+        <ViewModel:MainPageViewModel></ViewModel:MainPageViewModel>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout x:Uid="Content">
+            <Label Text="{Binding FrameText}" FontSize="Medium" />
+            <Button Command="{Binding SetClick}"/>
+
+            <Label Text="Page2" FontSize="Medium" />
+            <Button Command="{Binding Push}"/>
+
+            <Label Text="Page2" FontSize="Medium" />
+            <Button Command="{Binding OnPage3}"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

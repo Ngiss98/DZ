@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ViewModel="clr-namespace:App1.ViewModel"
+             x:Class="App1.View.Page2">
+    <ContentPage.BindingContext>
+        <ViewModel:Page2VM></ViewModel:Page2VM>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Button Text="Click Me MotherFriman!(Don't Working((( )" Command="{Binding Push}"/>
+
+        <Button Text="Click Me MotherFriman!(Working)" Clicked="Button_Clicked"/>
+        
+        <CollectionView x:Name="Users">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding Id}"/>
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding Username}"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
