@@ -5,7 +5,7 @@ using System.Text;
 
 namespace App1.Models
 {
-    class Users
+    public class Users
     {
         public static Users[] ItemsSource { get; internal set; }
         [JsonProperty("id")]

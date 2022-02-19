@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/A5ciiONbQpQzFy7Ncrlf5YU6OHnVvgVCkIRDQw3MOJ7C8G01lFpUBIXbiXdN0X/ifFqIRCpda60NtkAI64G2A==",
+  "success": true,
+  "projectFilePath": "D:\\visual studio\\SkazochnikiV0.0.0.0.1\\App1\\Books\\Books.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Нияз\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Нияз\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

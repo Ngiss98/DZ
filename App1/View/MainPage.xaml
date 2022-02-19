@@ -16,7 +16,7 @@
             <Button Command="{Binding Push}"/>
 
             <Label Text="Page2" FontSize="Medium" />
-            <Button Command="{Binding OnPage3}"/>
+            <Button Command="{Binding PushTo3}"/>
         </StackLayout>
     </ContentPage.Content>
 

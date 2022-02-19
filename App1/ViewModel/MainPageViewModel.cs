@@ -39,6 +39,8 @@ namespace App1.ViewModel
             App.Current.MainPage.Navigation.PushAsync(new Page2());
         }
 
+
+        public ICommand PushTo3 => new Command(OnPage3);
         private void OnPage3()
         {
             App.Current.MainPage.Navigation.PushAsync(new Page3());

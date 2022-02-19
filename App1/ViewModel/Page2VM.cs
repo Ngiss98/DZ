@@ -12,7 +12,7 @@ using Xamarin.Forms;
 
 namespace App1.ViewModel
 {
-    public class Page2VM
+    public class Page2VM 
     {
         public ICommand Push => new Command(GetSomJson);
 
